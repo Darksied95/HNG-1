@@ -1,0 +1,29 @@
+body {
+  background-color: #212121;
+  color: #b7f1f6;
+}
+
+img {
+  width: 300px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+a {
+  color: red;
+  animation: link linear infinite 3000ms normal;
+}
+
+@keyframes link {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
